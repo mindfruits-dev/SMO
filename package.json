@@ -1,0 +1,21 @@
+{
+  "name": "SEO",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Code.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "push": "clasp push && git add . && git commit --amend -m 'amended' && git push origin +master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mindfruits-dev/SEO.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mindfruits-dev/SEO/issues"
+  },
+  "homepage": "https://github.com/mindfruits-dev/SEO#readme"
+}

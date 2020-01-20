@@ -1,0 +1,18 @@
+<script>
+  function launchsomething(){
+    google.script.run.withSuccessHandler((x)=>alert(x).getLaunched("something")).getLaunched('ouioui')
+  }
+  
+  /****************************************************************************************************************************/
+</script>
+<script type="text/babel">
+  function tick() {
+    ReactDOM.render(<Welcome name="John Doe" clock={new Date().toLocaleTimeString()}/>, document.getElementById('reactapp'));
+  }
+  class Welcome extends React.Component {
+    render() { 
+      return(<div><h1>Welcome to React! I am {this.props.name}</h1> <h1>{this.props.clock}</h1></div>); 
+    }
+  }
+  setInterval(tick, 1000)
+</script>
